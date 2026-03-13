@@ -1,12 +1,17 @@
 {
   "name": "artdecopb",
+  "main": ".open-next/worker.js",
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
   "compatibility_date": "2024-09-23",
   "compatibility_flags": ["nodejs_compat"],
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "artdecopb-db",
-      "database_id": "local"
+      "database_id": "cf17dee9-0c22-4ebe-b428-4cf0728dc641"
     }
   ]
 }
